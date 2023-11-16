@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="form-container">
+      <p class="title">Login</p>
+      <form class="form">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" placeholder="" />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" placeholder="" />
+          <div class="forgot">
+            <a href="#">Forgot Password ?</a>
+          </div>
+        </div>
+        <button class="sign">Sign in</button>
+      </form>
+      <div class="social-message">
+        <div class="line"></div>
+        <p class="message">Login with social accounts</p>
+        <div class="line"></div>
+      </div>
+      <div class="social-icons">
+        <button aria-label="Log in with Google" class="icon">
+          <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+        </button>
+        <button aria-label="Log in with Facebook" class="icon">
+          <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+        </button>
+        <button aria-label="Log in with LinkedIn" class="icon">
+          <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+        </button>
+      </div>
+      <p class="signup">
+        Don't have an account?
+        <a href="#" class="">Sign up</a>
+      </p>
+    </div>
+  </body>
+</html>
